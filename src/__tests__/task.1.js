@@ -136,7 +136,7 @@ describe('What\'s new section', () => {
         // get computed style align-items
         expect(centerElement).toBeTruthy()
         // get first element offset top
-        expect (cardsLength).toBe(4);
+        expect (cardsLength).toBe(6);
     } );
 });
 describe('Book a table section', () => {
