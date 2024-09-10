@@ -1,9 +1,42 @@
-// This is where you can import other stylesheets or write your scss code
-  #navbar {
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+$bd-violet: #7A44FE;
+
+:root {
+  --bd-violet-bg: #7A44FE;
+  --bd-violet-rgb: 122, 68, 254;
+}
+
+.btn-primary {
+  font-weight: 600;
+  background-color: var(--bd-violet-bg);
+  border-color: var(--bd-violet-bg);
+  
+  &:hover {
+    background-color: darken($bd-violet, 10%);
+    border-color: darken($bd-violet, 10%);
+    color: var(--bs-white);
   }
 
-  #navbar:hover {
-    background-color: #343a40; /* bg-dark */
+  &:active {
+    background-color: darken($bd-violet, 20%);
+    border-color: darken($bd-violet, 20%);
   }
+}
+
+.btn-outline-primary {
+  font-weight: 600;
+  background-color: var(--bs-white);
+  border-color: $bd-violet;
+  color: $bd-violet;
+  
+  &:hover {
+    background-color: $bd-violet;
+    border-color: $bd-violet;
+    color: var(--bs-white);
+  }
+
+  &:active {
+    background-color: darken($bd-violet, 10%);
+    border-color: darken($bd-violet, 10%);
+    color: var(--bs-white);
+  }
+}
