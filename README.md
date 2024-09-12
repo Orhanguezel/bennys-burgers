@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Benny's burger
 [![Status overview badge](../../blob/badges/.github/badges/main/badge.svg)](#-results)
 
@@ -116,3 +117,6 @@ Note: have a look into the `node_modules/bootstrap/scss/_variables.scss` file to
 
 
 [//]: # (autograding info end)
+=======
+# bennys-burgers
+>>>>>>> 96978e7bc2d1ff788cd14bb106bd7b0c196cbe09
